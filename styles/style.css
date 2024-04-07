@@ -1,0 +1,16 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ div#buttons button{
+    min-width: 47%;
+}
+div#output{
+    min-height: 229px;
+}
+@media only screen and (max-width:750px){
+    div#buttons button {
+        min-width: 90%;
+    }
+}

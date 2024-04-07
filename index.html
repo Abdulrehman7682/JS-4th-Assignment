@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap Css  -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+   <!-- Toastify css -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <!-- Custom Css  -->
+  <link rel="stylesheet" href="styles/style.css">
+  <title>JavaScript Assignment 5</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Assignment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Chapter # 15-20</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="flex-grow-1">
+    <!-- Section 1 -->
+    <div class="container">
+      <div class="row">
+        <div class="col mt-4">
+          <h3 class="text-center">Chapter # 21-25 | Strings & Its Methods</h3>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12 col-md-6 mt-4">
+          <h4 class="text-center">Input</h4>
+          <div class="border border-dark rounded-3 h-75 p-4 d-flex align-item-center">
+            <div class="input-group">
+              <input type="text" placeholder="Type your text here" class="form-control bg-transparent" id="inputText">
+              <button class="btn btn-outline-success" id="clearinput">Clear</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mt-5 mt-md-4">
+          <h4 class="text-center">Original String</h4>
+          <div
+            class="border border-dark rounded-3 h-75 py-3 px-5 d-flex align-item-center justify-content-center bg-dark">
+            <div class="text-center text-white">
+              <p class="mb-0">
+                I Love my country Pakistan.<br>I Like my city Faisalabad.<br>I Love my Homeland
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6 text-center">
+          <h4>Buttons</h4>
+          <div class="border border-dark rounded-3 p-4" id="buttons">
+            <button class="btn btn-sm btn-danger mb-2" onclick=" lowerCase()">Convert to Lowercase</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="upperCase()">Convert to Uppercase</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="capitalize()">Convert to Capitalize</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="betterformatting()">Better Formatting</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="printAllCities()">Print All Cities</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="AddCity()">Add Your City In List</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="checkCity()">Check Your City In List</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="findWord()">Find This Word</button>
+            <button class="btn btn-sm btn-danger mb-2" onclick="replaceWord()">Replace Word</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mt-md-0 text-center">
+          <h4>Output / Result</h4>
+          <div class="border border-dark rounded-3 h-75 p-3 d-flex align-item-center justify-content-center text-center"
+            id="output">
+
+          </div>
+          <button class="btn btn-outline-dark mt-3" onclick="clearoutput()">Clear Output</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <br>
+  <br>
+  <footer class="bg-dark">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col">
+          <p class="text-white mb-0 text-center">&copy; 2024.Assignment By Abdul Rehman.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Toastifyjs -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- Custom Js  -->
+  <script src="Js/script.js"></script>
+</body>
+
+</html>
